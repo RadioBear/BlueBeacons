@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "MinorText"; ObjectID = "8RS-6r-pev"; */
+"8RS-6r-pev.text" = "MinorText";
+
+/* Class = "UILabel"; text = "Major:"; ObjectID = "Ht0-3S-Egq"; */
+"Ht0-3S-Egq.text" = "Major:";
+
+/* Class = "UILabel"; text = "Minor:"; ObjectID = "NUb-aQ-j9f"; */
+"NUb-aQ-j9f.text" = "Minor:";
+
+/* Class = "UILabel"; text = "UUID:"; ObjectID = "OP5-ZT-AVt"; */
+"OP5-ZT-AVt.text" = "UUID:";
+
+/* Class = "UIButton"; normalTitle = "Broadcast"; ObjectID = "Xxu-6k-GZd"; */
+"Xxu-6k-GZd.normalTitle" = "广播";
+
+/* Class = "UILabel"; text = "UUIDText"; ObjectID = "ZE2-ic-keO"; */
+"ZE2-ic-keO.text" = "UUIDText";
+
+/* Class = "UILabel"; text = "MajorText"; ObjectID = "eGs-Eh-7Gm"; */
+"eGs-Eh-7Gm.text" = "MajorText";
+
+/* Class = "UIButton"; normalTitle = "Receiver"; ObjectID = "n0w-Qs-6yH"; */
+"n0w-Qs-6yH.normalTitle" = "Receiver";
+
+/* Class = "UIViewController"; title = "Beacon Broadcast"; ObjectID = "rq0-ui-FQB"; */
+"rq0-ui-FQB.title" = "Beacon Broadcast";
+
+/* Class = "UIButton"; normalTitle = "Begin"; ObjectID = "uGk-Nc-oPS"; */
+"uGk-Nc-oPS.normalTitle" = "开始";

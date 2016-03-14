@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493D8CA51C966836005EA3A4 /* BRBBeaconInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493D8CA41C966836005EA3A4 /* BRBBeaconInfoTableViewCell.m */; };
+		493D8CA81C966CF7005EA3A4 /* BRBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 493D8CA71C966CF7005EA3A4 /* BRBPeripheral.m */; };
+		493D8CAB1C96AFDE005EA3A4 /* BRBBeaconAdvertisementInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 493D8CAA1C96AFDE005EA3A4 /* BRBBeaconAdvertisementInfo.m */; };
+		494575B81C8B287900D7D621 /* BRBBeaconBroadcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494575B71C8B287900D7D621 /* BRBBeaconBroadcastViewController.m */; };
+		494575DF1C8D9F3100D7D621 /* UINavigationController+TransparentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494575DE1C8D9F3100D7D621 /* UINavigationController+TransparentNavigationController.m */; };
+		494575E21C8DBF1400D7D621 /* UIView+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 494575E11C8DBF1400D7D621 /* UIView+IBDesignable.m */; };
+		494575E81C8EAF7600D7D621 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494575EA1C8EAF7600D7D621 /* Localizable.strings */; };
+		494575EE1C8EB41C00D7D621 /* BRBDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 494575ED1C8EB41C00D7D621 /* BRBDefault.m */; };
+		495BF1461C93CEAD007E84DD /* BRBBeaconCentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BF1451C93CEAD007E84DD /* BRBBeaconCentralViewController.m */; };
+		495BF14A1C93D1EB007E84DD /* BRBBeaconCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BF1491C93D1EB007E84DD /* BRBBeaconCentral.m */; };
+		495BF14E1C93FF77007E84DD /* BRBBeaconError.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BF14D1C93FF77007E84DD /* BRBBeaconError.m */; };
+		495BF1511C95C065007E84DD /* BRBBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BF1501C95C065007E84DD /* BRBBeacon.m */; };
+		49BB1EBE1C880EAB0096E7FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1EBD1C880EAB0096E7FE /* main.m */; };
+		49BB1EC11C880EAB0096E7FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1EC01C880EAB0096E7FE /* AppDelegate.m */; };
+		49BB1EC71C880EAB0096E7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB1EC51C880EAB0096E7FE /* Main.storyboard */; };
+		49BB1EC91C880EAB0096E7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BB1EC81C880EAB0096E7FE /* Assets.xcassets */; };
+		49BB1ECC1C880EAB0096E7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB1ECA1C880EAB0096E7FE /* LaunchScreen.storyboard */; };
+		49BB1ED61C880F0D0096E7FE /* BRBBeaconBroadcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1ED51C880F0D0096E7FE /* BRBBeaconBroadcast.m */; };
+		49BB1EDD1C892EE60096E7FE /* BRBRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1EDC1C892EE60096E7FE /* BRBRoundButton.m */; };
+		49BB1EE11C89DA840096E7FE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1EE01C89DA840096E7FE /* MainViewController.m */; };
+		49D9F38A1C91C042001BEFB6 /* BRBBeaconRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D9F3891C91C042001BEFB6 /* BRBBeaconRangeViewController.m */; };
+		49DF20F31C901C950053062E /* BRBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF20F21C901C950053062E /* BRBAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		493D8CA31C966836005EA3A4 /* BRBBeaconInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconInfoTableViewCell.h; sourceTree = "<group>"; };
+		493D8CA41C966836005EA3A4 /* BRBBeaconInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconInfoTableViewCell.m; sourceTree = "<group>"; };
+		493D8CA61C966CF7005EA3A4 /* BRBPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBPeripheral.h; sourceTree = "<group>"; };
+		493D8CA71C966CF7005EA3A4 /* BRBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBPeripheral.m; sourceTree = "<group>"; };
+		493D8CA91C96AFDE005EA3A4 /* BRBBeaconAdvertisementInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconAdvertisementInfo.h; sourceTree = "<group>"; };
+		493D8CAA1C96AFDE005EA3A4 /* BRBBeaconAdvertisementInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconAdvertisementInfo.m; sourceTree = "<group>"; };
+		494575B61C8B287900D7D621 /* BRBBeaconBroadcastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconBroadcastViewController.h; sourceTree = "<group>"; };
+		494575B71C8B287900D7D621 /* BRBBeaconBroadcastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconBroadcastViewController.m; sourceTree = "<group>"; };
+		494575DD1C8D9F3100D7D621 /* UINavigationController+TransparentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TransparentNavigationController.h"; sourceTree = "<group>"; };
+		494575DE1C8D9F3100D7D621 /* UINavigationController+TransparentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TransparentNavigationController.m"; sourceTree = "<group>"; };
+		494575E01C8DBF1400D7D621 /* UIView+IBDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBDesignable.h"; sourceTree = "<group>"; };
+		494575E11C8DBF1400D7D621 /* UIView+IBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBDesignable.m"; sourceTree = "<group>"; };
+		494575E61C8EAF1200D7D621 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		494575E91C8EAF7600D7D621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		494575EC1C8EB41C00D7D621 /* BRBDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBDefault.h; sourceTree = "<group>"; };
+		494575ED1C8EB41C00D7D621 /* BRBDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBDefault.m; sourceTree = "<group>"; };
+		494575EF1C8EB77C00D7D621 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		495BF1421C93CBD1007E84DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495BF1441C93CEAD007E84DD /* BRBBeaconCentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconCentralViewController.h; sourceTree = "<group>"; };
+		495BF1451C93CEAD007E84DD /* BRBBeaconCentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconCentralViewController.m; sourceTree = "<group>"; };
+		495BF1481C93D1EB007E84DD /* BRBBeaconCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconCentral.h; sourceTree = "<group>"; };
+		495BF1491C93D1EB007E84DD /* BRBBeaconCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconCentral.m; sourceTree = "<group>"; };
+		495BF14B1C93F9F3007E84DD /* BRBDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRBDefine.h; sourceTree = "<group>"; };
+		495BF14C1C93FF77007E84DD /* BRBBeaconError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconError.h; sourceTree = "<group>"; };
+		495BF14D1C93FF77007E84DD /* BRBBeaconError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconError.m; sourceTree = "<group>"; };
+		495BF14F1C95C065007E84DD /* BRBBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeacon.h; sourceTree = "<group>"; };
+		495BF1501C95C065007E84DD /* BRBBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeacon.m; sourceTree = "<group>"; };
+		49BB1EB91C880EAB0096E7FE /* BlueBeacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueBeacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BB1EBD1C880EAB0096E7FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49BB1EBF1C880EAB0096E7FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BlueBeacons/AppDelegate.h; sourceTree = "<group>"; };
+		49BB1EC01C880EAB0096E7FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49BB1EC61C880EAB0096E7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49BB1EC81C880EAB0096E7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49BB1ECB1C880EAB0096E7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49BB1ED41C880F0D0096E7FE /* BRBBeaconBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconBroadcast.h; sourceTree = "<group>"; };
+		49BB1ED51C880F0D0096E7FE /* BRBBeaconBroadcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconBroadcast.m; sourceTree = "<group>"; };
+		49BB1EDB1C892EE60096E7FE /* BRBRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBRoundButton.h; sourceTree = "<group>"; };
+		49BB1EDC1C892EE60096E7FE /* BRBRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBRoundButton.m; sourceTree = "<group>"; };
+		49BB1EDF1C89DA840096E7FE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49BB1EE01C89DA840096E7FE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49D9F3881C91C042001BEFB6 /* BRBBeaconRangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBBeaconRangeViewController.h; sourceTree = "<group>"; };
+		49D9F3891C91C042001BEFB6 /* BRBBeaconRangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBBeaconRangeViewController.m; sourceTree = "<group>"; };
+		49DF20F11C901C950053062E /* BRBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBAlert.h; sourceTree = "<group>"; };
+		49DF20F21C901C950053062E /* BRBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BB1EB61C880EAB0096E7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494575DC1C8D9EFC00D7D621 /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				494575DD1C8D9F3100D7D621 /* UINavigationController+TransparentNavigationController.h */,
+				494575DE1C8D9F3100D7D621 /* UINavigationController+TransparentNavigationController.m */,
+				494575E01C8DBF1400D7D621 /* UIView+IBDesignable.h */,
+				494575E11C8DBF1400D7D621 /* UIView+IBDesignable.m */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		494575E31C8EA8E600D7D621 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				494575EA1C8EAF7600D7D621 /* Localizable.strings */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		49BB1EB01C880EAB0096E7FE = {
+			isa = PBXGroup;
+			children = (
+				49BB1EBB1C880EAB0096E7FE /* BlueBeacons */,
+				49BB1EBA1C880EAB0096E7FE /* Products */,
+				49BB1EBF1C880EAB0096E7FE /* AppDelegate.h */,
+			);
+			sourceTree = "<group>";
+		};
+		49BB1EBA1C880EAB0096E7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1EB91C880EAB0096E7FE /* BlueBeacons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BB1EBB1C880EAB0096E7FE /* BlueBeacons */ = {
+			isa = PBXGroup;
+			children = (
+				49DF20F01C901C850053062E /* Misc */,
+				494575E31C8EA8E600D7D621 /* Text */,
+				494575DC1C8D9EFC00D7D621 /* UIExtension */,
+				49BB1EDE1C89DA2E0096E7FE /* MainUI */,
+				49BB1ED71C880F810096E7FE /* UIControl */,
+				49BB1ED31C880ED00096E7FE /* Beacon */,
+				49BB1EC01C880EAB0096E7FE /* AppDelegate.m */,
+				49BB1EC51C880EAB0096E7FE /* Main.storyboard */,
+				49BB1EC81C880EAB0096E7FE /* Assets.xcassets */,
+				49BB1ECA1C880EAB0096E7FE /* LaunchScreen.storyboard */,
+				495BF1421C93CBD1007E84DD /* Info.plist */,
+				49BB1EBC1C880EAB0096E7FE /* Supporting Files */,
+				494575EC1C8EB41C00D7D621 /* BRBDefault.h */,
+				494575ED1C8EB41C00D7D621 /* BRBDefault.m */,
+				495BF14B1C93F9F3007E84DD /* BRBDefine.h */,
+			);
+			path = BlueBeacons;
+			sourceTree = "<group>";
+		};
+		49BB1EBC1C880EAB0096E7FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1EBD1C880EAB0096E7FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49BB1ED31C880ED00096E7FE /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				495BF1481C93D1EB007E84DD /* BRBBeaconCentral.h */,
+				495BF1491C93D1EB007E84DD /* BRBBeaconCentral.m */,
+				49BB1ED41C880F0D0096E7FE /* BRBBeaconBroadcast.h */,
+				49BB1ED51C880F0D0096E7FE /* BRBBeaconBroadcast.m */,
+				495BF14C1C93FF77007E84DD /* BRBBeaconError.h */,
+				495BF14D1C93FF77007E84DD /* BRBBeaconError.m */,
+				495BF14F1C95C065007E84DD /* BRBBeacon.h */,
+				495BF1501C95C065007E84DD /* BRBBeacon.m */,
+				493D8CA61C966CF7005EA3A4 /* BRBPeripheral.h */,
+				493D8CA71C966CF7005EA3A4 /* BRBPeripheral.m */,
+				493D8CA91C96AFDE005EA3A4 /* BRBBeaconAdvertisementInfo.h */,
+				493D8CAA1C96AFDE005EA3A4 /* BRBBeaconAdvertisementInfo.m */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		49BB1ED71C880F810096E7FE /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1EDB1C892EE60096E7FE /* BRBRoundButton.h */,
+				49BB1EDC1C892EE60096E7FE /* BRBRoundButton.m */,
+				493D8CA31C966836005EA3A4 /* BRBBeaconInfoTableViewCell.h */,
+				493D8CA41C966836005EA3A4 /* BRBBeaconInfoTableViewCell.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		49BB1EDE1C89DA2E0096E7FE /* MainUI */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1EDF1C89DA840096E7FE /* MainViewController.h */,
+				49BB1EE01C89DA840096E7FE /* MainViewController.m */,
+				494575B61C8B287900D7D621 /* BRBBeaconBroadcastViewController.h */,
+				494575B71C8B287900D7D621 /* BRBBeaconBroadcastViewController.m */,
+				49D9F3881C91C042001BEFB6 /* BRBBeaconRangeViewController.h */,
+				49D9F3891C91C042001BEFB6 /* BRBBeaconRangeViewController.m */,
+				495BF1441C93CEAD007E84DD /* BRBBeaconCentralViewController.h */,
+				495BF1451C93CEAD007E84DD /* BRBBeaconCentralViewController.m */,
+			);
+			path = MainUI;
+			sourceTree = "<group>";
+		};
+		49DF20F01C901C850053062E /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				49DF20F11C901C950053062E /* BRBAlert.h */,
+				49DF20F21C901C950053062E /* BRBAlert.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BB1EB81C880EAB0096E7FE /* BlueBeacons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BB1ED01C880EAB0096E7FE /* Build configuration list for PBXNativeTarget "BlueBeacons" */;
+			buildPhases = (
+				49BB1EB51C880EAB0096E7FE /* Sources */,
+				49BB1EB61C880EAB0096E7FE /* Frameworks */,
+				49BB1EB71C880EAB0096E7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueBeacons;
+			productName = BlueBeacons;
+			productReference = 49BB1EB91C880EAB0096E7FE /* BlueBeacons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BB1EB11C880EAB0096E7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RadioBear;
+				TargetAttributes = {
+					49BB1EB81C880EAB0096E7FE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B4ZK5WLNK5;
+					};
+				};
+			};
+			buildConfigurationList = 49BB1EB41C880EAB0096E7FE /* Build configuration list for PBXProject "BlueBeacons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 49BB1EB01C880EAB0096E7FE;
+			productRefGroup = 49BB1EBA1C880EAB0096E7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BB1EB81C880EAB0096E7FE /* BlueBeacons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BB1EB71C880EAB0096E7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BB1ECC1C880EAB0096E7FE /* LaunchScreen.storyboard in Resources */,
+				494575E81C8EAF7600D7D621 /* Localizable.strings in Resources */,
+				49BB1EC91C880EAB0096E7FE /* Assets.xcassets in Resources */,
+				49BB1EC71C880EAB0096E7FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BB1EB51C880EAB0096E7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494575DF1C8D9F3100D7D621 /* UINavigationController+TransparentNavigationController.m in Sources */,
+				49DF20F31C901C950053062E /* BRBAlert.m in Sources */,
+				49BB1ED61C880F0D0096E7FE /* BRBBeaconBroadcast.m in Sources */,
+				49BB1EE11C89DA840096E7FE /* MainViewController.m in Sources */,
+				493D8CA51C966836005EA3A4 /* BRBBeaconInfoTableViewCell.m in Sources */,
+				494575EE1C8EB41C00D7D621 /* BRBDefault.m in Sources */,
+				49BB1EC11C880EAB0096E7FE /* AppDelegate.m in Sources */,
+				493D8CA81C966CF7005EA3A4 /* BRBPeripheral.m in Sources */,
+				495BF1461C93CEAD007E84DD /* BRBBeaconCentralViewController.m in Sources */,
+				495BF14A1C93D1EB007E84DD /* BRBBeaconCentral.m in Sources */,
+				49BB1EDD1C892EE60096E7FE /* BRBRoundButton.m in Sources */,
+				494575E21C8DBF1400D7D621 /* UIView+IBDesignable.m in Sources */,
+				49BB1EBE1C880EAB0096E7FE /* main.m in Sources */,
+				495BF1511C95C065007E84DD /* BRBBeacon.m in Sources */,
+				495BF14E1C93FF77007E84DD /* BRBBeaconError.m in Sources */,
+				493D8CAB1C96AFDE005EA3A4 /* BRBBeaconAdvertisementInfo.m in Sources */,
+				494575B81C8B287900D7D621 /* BRBBeaconBroadcastViewController.m in Sources */,
+				49D9F38A1C91C042001BEFB6 /* BRBBeaconRangeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		494575EA1C8EAF7600D7D621 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494575E91C8EAF7600D7D621 /* Base */,
+				494575EF1C8EB77C00D7D621 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		49BB1EC51C880EAB0096E7FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BB1EC61C880EAB0096E7FE /* Base */,
+				494575E61C8EAF1200D7D621 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49BB1ECA1C880EAB0096E7FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BB1ECB1C880EAB0096E7FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BB1ECE1C880EAB0096E7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49BB1ECF1C880EAB0096E7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BB1ED11C880EAB0096E7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = BlueBeacons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiobear.BlueBeacons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49BB1ED21C880EAB0096E7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = BlueBeacons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiobear.BlueBeacons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BB1EB41C880EAB0096E7FE /* Build configuration list for PBXProject "BlueBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BB1ECE1C880EAB0096E7FE /* Debug */,
+				49BB1ECF1C880EAB0096E7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BB1ED01C880EAB0096E7FE /* Build configuration list for PBXNativeTarget "BlueBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BB1ED11C880EAB0096E7FE /* Debug */,
+				49BB1ED21C880EAB0096E7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BB1EB11C880EAB0096E7FE /* Project object */;
+}

@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  BlueBeacons
+
+  Created by YuGuoXian on 16/3/8.
+  Copyright © 2016年 RadioBear. All rights reserved.
+*/
+
+
+"Not Set" = "未设置";
+
+"Not Avaliable" = "不可用";
+
+"Device Off" = "设备不可用";
+
+"Begin" = "开始";
+
+"Stop" = "停止";
+
+"Broadcast Fail" = "广播失败";
+
+"OK" = "确定";
+
+"Bluetooth device not available" = "蓝牙设备不可用";
+
+"Can not begin broadcast" = "现在不能广播";
